@@ -2,6 +2,24 @@
 SQL-based Pizza Sales Analysis using relational database tables
 
 # 🍕 SQL Pizza Sales Analysis
+## 🗄️ Database Schema
+
+The project uses four relational tables connected through primary and foreign keys:
+
+```text
+Pizza Types
+    │
+    │ pizza_type_id
+    ▼
+Pizzas
+    │
+    │ pizza_id
+    ▼
+Order Details
+    │
+    │ order_id
+    ▼
+Orders
 
 ## 📌 Project Overview
 
